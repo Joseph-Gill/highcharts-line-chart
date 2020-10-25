@@ -4,7 +4,7 @@ import HighchartsReact from "highcharts-react-official";
 import './css/App.css';
 
 const App = () => {
-  const [options, setOptions] = useState(
+  const options =
     {
       title: {
         text: 'Squirro Line Chart Coding Challenge'
@@ -27,7 +27,6 @@ const App = () => {
         }
       ]
     }
-  );
 
   return (
     <div className="App">
